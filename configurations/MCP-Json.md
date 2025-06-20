@@ -2,6 +2,13 @@
 # MCP Json Configuration
 This document provides an overview of the MCP (Microsoft Copilot) JSON configuration file format.
 
+The `mcp.json` file should not commited back to source as it contains sensitive information such as API tokens.  Make sure that the repo has it added to the `.gitignore` file.
+
+```
+# MCP configuration file
+.github/mcp.json
+```
+
 ## Shell File
 Basic format of the mcp.json file
 
